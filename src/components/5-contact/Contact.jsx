@@ -1,5 +1,6 @@
 // import React from 'react'
 import './Contact.css';
+import '../../../public/contact'
 export default function Contact() {
   const onSubmit = async (event) => {
     event.preventDefault();
