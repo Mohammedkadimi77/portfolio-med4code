@@ -1,0 +1,196 @@
+.mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.mywork-title {
+    position: relative;
+}
+
+.mywork-title h2 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.mywork-title h3 {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    z-index: 1;
+}
+
+.mywork-title h3 span {
+    color: blue;
+    font-size: 40px;
+}
+
+.mywork-container .project1,
+.mywork-container .project2 {
+    text-align: center;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(247, 0, 0, 0.998);
+}
+
+.mywork-container .project1 h1,
+.mywork-container .project2 h1 {
+    font-size: 34px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.mywork-container .project1 {
+    background-color: #1c1744;
+}
+
+.mywork-container .project1 .right img,
+.mywork-container .project2 .right img {
+    box-shadow: 0px 0px 10px rgba(247, 0, 0, 0.998);
+    border-radius: 30px;
+    margin: 20px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.mywork-container .project2 .right img:hover,
+.mywork-container .project1 .right img:hover {
+    transform: scale(1.05);
+    border: 3px solid rgb(224, 57, 57);
+    transition: 0.3s;
+}
+
+.mywork-container .project2 {
+    margin-top: 100px;
+    background-color: #285f73;
+}
+
+.mywork-container .project1 button,
+.mywork-container .project2 button {
+    background: linear-gradient(270deg, #ff0101 10%, #4400ff 100%);
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.mywork-container .project2 p,
+.mywork-container .project1 p {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .mywork {
+        margin: 80px 50px;
+    }
+
+    .mywork-title h2 {
+        font-size: 60px;
+    }
+
+    .mywork-title h3 {
+        font-size: 30px;
+    }
+
+    .mywork-container .project1,
+    .mywork-container .project2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mywork-container .project1 h1,
+    .mywork-container .project2 h1 {
+        margin-top: 20px;
+    }
+
+    .mywork-container .project1 p,
+    .mywork-container .project2 p {
+        margin-top: 20px;
+    }
+
+    .mywork-container .project1 .right img,
+    .mywork-container .project2 .right img {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .mywork {
+        margin: 60px 20px;
+    }
+
+    .mywork-title h2 {
+        font-size: 50px;
+    }
+
+    .mywork-title h3 {
+        font-size: 25px;
+    }
+
+    .mywork-container .project1,
+    .mywork-container .project2 {
+        margin: 10px 0;
+    }
+
+    .mywork-container .project1 h1,
+    .mywork-container .project2 h1 {
+        font-size: 28px;
+    }
+
+    .mywork-container .project1 p,
+    .mywork-container .project2 p {
+        font-size: 16px;
+    }
+
+    .mywork-container .project1 button,
+    .mywork-container .project2 button {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mywork {
+        margin: 40px 10px;
+        gap: 40px;
+    }
+
+    .mywork-title h2 {
+        font-size: 40px;
+    }
+
+    .mywork-title h3 {
+        font-size: 20px;
+    }
+
+    .mywork-container .project1 h1,
+    .mywork-container .project2 h1 {
+        font-size: 24px;
+    }
+
+    .mywork-container .project1 p,
+    .mywork-container .project2 p {
+        font-size: 14px;
+    }
+
+    .mywork-container .project1 button,
+    .mywork-container .project2 button {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .mywork-container .project1 .right img,
+    .mywork-container .project2 .right img {
+        width: 90%;
+    }
+}

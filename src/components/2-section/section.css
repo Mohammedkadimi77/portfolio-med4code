@@ -1,0 +1,109 @@
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    padding: 20px;
+}
+
+.hero img {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.hero h1 {
+    text-align: center;
+    width: 90%;
+    font-size: 8vw;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(270deg, #ff0101 10%, #4400ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    width: 90%;
+    text-align: center;
+    font-size: 4vw;
+    line-height: 1.6;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 4vw;
+    font-weight: 500;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-connect , .hero-resume {
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 4vw;
+    cursor: pointer;
+    text-align: center;
+}
+
+.hero-connect {
+    background: linear-gradient(270deg, #ff0101 -5.09%, #4400ff 106.28%);
+    color: white;
+    border: none;
+}
+
+.hero-resume {
+    border: 2px solid #fff;
+    color: white;
+}
+
+.hero-connect:hover {
+    border: 2px solid white;
+}
+
+.hero-resume:hover {
+    border-color: rgb(227, 93, 187);
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+    .hero h1 {
+        font-size: 50px;
+    }
+    .hero p {
+        font-size: 18px;
+        width: 60%;
+    }
+    .hero-action {
+        font-size: 18px;
+    }
+    .hero-connect, .hero-resume {
+        font-size: 18px;
+        padding: 20px 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero h1 {
+        font-size: 60px;
+        width: 70%;
+    }
+    .hero p {
+        font-size: 20px;
+        width: 50%;
+    }
+    .hero-action {
+        font-size: 20px;
+    }
+    .hero-connect, .hero-resume {
+        font-size: 20px;
+        padding: 25px 50px;
+    }
+}
