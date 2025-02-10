@@ -1,6 +1,5 @@
 // import React from 'react'
 import './Contact.css';
-import '../../../public/contact/facebook.png'
 export default function Contact() {
   const onSubmit = async (event) => {
     event.preventDefault();
