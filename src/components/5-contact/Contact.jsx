@@ -1,5 +1,9 @@
 // import React from 'react'
 import './Contact.css';
+import linkedin from "/public/contact/linkedin.jpg"
+import facebook from "/public/contact/facebook.jpg"
+import github from "/public/contact/github.jpg"
+import sociale from "/public/contact/sociale.jpg"
 export default function Contact() {
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -36,10 +40,10 @@ export default function Contact() {
                 <p>{`Let's connect ! Reach out on any platform and let's collaborate or chat about new opportunities`}</p>
                 <div className="contact-details">
                   
-                      <a href="https://www.linkedin.com/in/mohammed-kadimi-295727239" target="_blank" rel="noopener noreferrer"><img src="/public/contact/linkedin.jpg" alt="" width={60}/></a>
-                      <a  href="https://www.instagram.com/moh1mmed_kadimi/" target="_blank" rel="noopener noreferrer"><img src="/public/contact/sociale.jpg" alt="" width={60}/></a>
-                      <a  href="https://github.com/Mohammedkadimi77" target="_blank" rel="noopener noreferrer"><img src="/public/contact/github.jpg" alt="" width={60}/></a>
-                      <a  href="https://web.facebook.com/profile.php?id=100018530645982" target="_blank" rel="noopener noreferrer"><img src="/public/contact/facebook.jpg" alt="" width={60}/></a>
+                      <a href="https://www.linkedin.com/in/mohammed-kadimi-295727239" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="" width={60}/></a>
+                      <a  href="https://www.instagram.com/moh1mmed_kadimi/" target="_blank" rel="noopener noreferrer"><img src={sociale} alt="" width={60}/></a>
+                      <a  href="https://github.com/Mohammedkadimi77" target="_blank" rel="noopener noreferrer"><img src={github} alt="" width={60}/></a>
+                      <a  href="https://web.facebook.com/profile.php?id=100018530645982" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="" width={60}/></a>
                 </div>
               </div>
               <form onSubmit={onSubmit} className='contact-right'> 

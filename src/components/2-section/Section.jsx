@@ -1,8 +1,9 @@
 import './section.css';
+import me from "/public/me.jpg"
 export default function Section() {
     return (
         <div id='home' className='hero'>
-            <img src='/public/me.jpg' alt='' width={250} />
+            <img src={me} alt='' width={250} />
             <h1><span>Bonjour, je suis Mohammed, </span>développeur full-stack basé au Maroc</h1>
             <p>{`Je suis Étudiant en deuxième année Développement Digital, option Web Full-Stack, à l'Institut
 Spécialisé en Technologie Appliquée Cité de l'Air à El Jadida, Maroc , je suis passionné par

@@ -1,4 +1,16 @@
 import './About.css';
+import mee from "/public/mee.jpg";
+import html from "/public/img/html-5.jpg";
+import css from "/public/img/css-3.jpg"
+import js from "/public/img/js.jpg"
+import react from "/public/img/react.jpg"
+import python from "/public/img/python.jpg"
+import laravel from '/public/img/laravel.jpg'
+import gite from '/public/img/gite.jpg'
+import github from '/public/img/github.jpg'
+import gitlab from '/public/img/gitlab.jpg'
+import mysql from '/public/img/mysql.jpg'
+import php from '/public/img/php.jpg'
 const About = () => {
     return (
         <div id='about' className='about'>
@@ -9,7 +21,7 @@ const About = () => {
             </div>
             <div className='about-sections'>
                 <div className='about-left'>
-                <img src='/public/mee.jpg' width={300} alt=''/>
+                <img src={mee} width={300} alt=''/>
                 </div>
                 <div className='about-right'>
                     <div className='about-para'>
@@ -18,17 +30,17 @@ const About = () => {
             </div>
                 <div className='about-skills'>
                     <div className='about-skill'>
-                        <img src='/public/img/html-5.jpg' width={50}/>
-                        <img src='/public/img/css-3.jpg' width={50}/>
-                        <img src='/public/img/js.jpg' width={50}/>
-                        <img src='/public/img/react.jpg' width={50}/>
-                        <img src='/public/img/python.jpg' width={50}/>
-                        <img src='/public/img/laravel.jpg' width={50}/>
-                        <img src='/public/img/gite.jpg' width={50}/>
-                        <img src='/public/img/github.jpg' width={50}/>
-                        <img src='/public/img/gitlab.jpg' width={50}/>
-                        <img src='/public/img/mysql.jpg' width={50}/>
-                        <img src='/public/img/php.jpg' width={50}/>
+                        <img src={html} width={50}/>
+                        <img src={css} width={50}/>
+                        <img src={js} width={50}/>
+                        <img src={react} width={50}/>
+                        <img src={python} width={50}/>
+                        <img src={laravel} width={50}/>
+                        <img src={gite} width={50}/>
+                        <img src={github} width={50}/>
+                        <img src={gitlab} width={50}/>
+                        <img src={mysql} width={50}/>
+                        <img src= width={50}/>
                         
                     </div>
                 </div>
