@@ -40,7 +40,7 @@ const About = () => {
                         <img src={github} width={50}/>
                         <img src={gitlab} width={50}/>
                         <img src={mysql} width={50}/>
-                        <img src= width={50}/>
+                        <img src={php} width={50}/>
                         
                     </div>
                 </div>
