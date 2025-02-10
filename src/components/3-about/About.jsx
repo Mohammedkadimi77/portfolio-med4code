@@ -9,7 +9,7 @@ const About = () => {
             </div>
             <div className='about-sections'>
                 <div className='about-left'>
-                <img src='/public/mee.png' width={300} alt=''/>
+                <img src='/public/mee.jpg' width={300} alt=''/>
                 </div>
                 <div className='about-right'>
                     <div className='about-para'>
@@ -18,17 +18,17 @@ const About = () => {
             </div>
                 <div className='about-skills'>
                     <div className='about-skill'>
-                        <img src='/public/img/html-5.png' width={50}/>
-                        <img src='/public/img/css-3.png' width={50}/>
-                        <img src='/public/img/js.png' width={50}/>
-                        <img src='/public/img/react.1024x911.png' width={50}/>
-                        <img src='/public/img/python.png' width={50}/>
-                        <img src='/public/img/laravel.995x1024.png' width={50}/>
-                        <img src='/public/img/gite.png' width={50}/>
-                        <img src='/public/img/github.png' width={50}/>
-                        <img src='/public/img/gitlab.png' width={50}/>
-                        <img src='/public/img/mysql.png' width={50}/>
-                        <img src='/public/img/php.png' width={50}/>
+                        <img src='/public/img/html-5.jpg' width={50}/>
+                        <img src='/public/img/css-3.jpg' width={50}/>
+                        <img src='/public/img/js.jpg' width={50}/>
+                        <img src='/public/img/react.jpg' width={50}/>
+                        <img src='/public/img/python.jpg' width={50}/>
+                        <img src='/public/img/laravel.jpg' width={50}/>
+                        <img src='/public/img/gite.jpg' width={50}/>
+                        <img src='/public/img/github.jpg' width={50}/>
+                        <img src='/public/img/gitlab.jpg' width={50}/>
+                        <img src='/public/img/mysql.jpg' width={50}/>
+                        <img src='/public/img/php.jpg' width={50}/>
                         
                     </div>
                 </div>

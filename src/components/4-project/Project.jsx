@@ -1,5 +1,4 @@
 import './Project.css'
-// import myproject_data from '../../../public/project_data.js'
 const Project = () => {
   return (
     <div id='project' className='mywork'>
@@ -15,7 +14,7 @@ const Project = () => {
                 <button>SHOW WEBSITE <span className='icon-arrow-right'></span></button>
                 </div>
                 <div className="right">
-                <img src="/public/project/p1.png" width={700} alt="" />
+                <img src="/public/project/p1.jpg" width={700} alt="" />
                 </div>
             </div>
             <div className="project2">
@@ -26,12 +25,9 @@ const Project = () => {
 
                 </div>
                 <div className="right">
-                <img src="/public/project/p2.png" width={700} alt="" />
+                <img src="/public/project/p2.jpg" width={700} alt="" />
                 </div>
             </div>
-            {/* {myproject_data.map((e,i)=>{
-                return <img key={i} src={e.p_img} alt="" width={500}/>
-            })} */}
         </div>
         
     </div>
